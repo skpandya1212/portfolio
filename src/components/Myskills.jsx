@@ -10,7 +10,7 @@ import nodejs from './../assets/image/nodejs.png';
 import github from './../assets/image/Github.png';
 import express from './../assets/image/express.png';
 import word from './../assets/image/Word.png';
-import powerpoint from './../assets/image/Powerpoint.png';
+import powerpoint from './../assets/image/PowerPoint.png';
 import excel from './../assets/image/Excel.png';
 
 function Myskills() {
