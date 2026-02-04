@@ -1,0 +1,85 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(38, 43, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img
+{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 30px;
+    background-color: rgb(234, 208, 181);
+}
+.logo h1
+{
+    font-size: 24px;
+    color: white;
+    
+}
+.menubar
+{
+    width: 60%;
+    
+    
+}
+.menubar ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   overflow: hidden;
+}
+ul li a
+{
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+ul li a:hover
+{
+   color: rgb(0, 217, 255);
+   font-size: 25px;
+   transition: all 0.5s ease;   
+}
+ul li a::before
+{
+    content: ' ';
+    width:0px;
+    height:100%;
+    position: absolute;
+    transition: all 0.5s;
+    border-bottom: 2px solid rgb(0, 217, 255);
+
+}
+ul li a:hover::before
+{
+    width:100%;
+}

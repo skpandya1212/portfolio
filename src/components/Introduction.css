@@ -1,0 +1,112 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.introduction-container
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 60px;
+    align-items: center;
+}
+.introduction
+{
+   width: 60%;
+    height:auto;
+    line-height: 60px;
+    padding:20px;
+    min-height: 400px;
+}
+.introduction h2
+{
+    font-size: 25px;
+    margin-bottom: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -3px;
+    color: white;
+}
+.introduction h1
+{
+    font-size: 48px;
+    font-weight: bolder;
+    background-size: contain;
+    background-image: linear-gradient(225deg, rgb(0, 217, 255), rgb(192, 1, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn1 {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    border: 2px solid;
+    border-image: linear-gradient(225deg, rgb(0, 217, 255), rgb(192, 1, 250)) 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+/* TEXT */
+.btn-text {
+    position: relative;
+    z-index: 2;
+}
+
+/* GRADIENT LAYER */
+.btn1::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(225deg, rgb(0, 217, 255), rgb(192, 1, 250));
+    height:0px;
+    width:0px;
+    transition:all 0.5s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* HOVER EFFECT */
+.btn1:hover::before {
+    height: 100%;
+    width: 100%;
+}
+/* Optional: text color change on hover */
+.btn1:hover .btn-text {
+    color: black;
+}
+
+.flotimage {
+  display: inline-block;
+  perspective: 1000px;
+}
+
+.flotimage img {
+  width: 100%;
+  height: auto;
+  transform-style: preserve-3d;
+  animation: float3d 5s ease-in-out infinite;
+  transition: transform 0.6s ease;
+  will-change: transform;
+}
+
+@keyframes float3d {
+  0% {
+        transform: translate(0px,0px);
+    }
+    50%
+    {
+        transform: translate(-30px,-20px);
+    }
+}
+

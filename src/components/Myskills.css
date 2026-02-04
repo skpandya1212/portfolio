@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.myskills-container {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.skillheading h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    background-size: contain;
+    background-image: linear-gradient(225deg, rgb(0, 217, 255), rgb(192, 1, 250));
+   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skillslogocontainer {
+    width: 100%;
+    height: auto;
+}
+
+.skillslogocontainer .skillcard1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.skillcard1 .cardbox {
+    width: 12rem;
+    height: 10rem;
+    background-color: rgb(7, 13, 30);
+    border: solid 2px rgb(15, 14, 14);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardbox img,.cardbox h3 {
+    z-index: 1;
+}
+
+.cardbox .border::before {
+    content: "";
+    position: absolute;
+    width: 5rem;
+    height: 20rem;
+    left: 4rem;
+    top: -40%;
+    animation: 5s linear 0s infinite normal none running barra;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.cardbox .border::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    background: black;
+    border-radius: 25px;
+    transition: 0.3s;
+    
+}
+@keyframes barra {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform:rotate(360deg);
+    }
+}
+.HTML::before {
+    background:  rgb(255, 103, 2);
+}
+.CSS::before {
+    background:  rgb(2, 117, 255);
+}
+.JAVASCRIPT::before {
+    background: rgb(255, 221, 0);
+}
+.REACT::before {
+    background:  rgb(97, 218, 251);
+}
+
+
+
+
+.skillslogocontainer .skillcard2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.skillcard2 .cardbox {
+    width: 12rem;
+    height: 10rem;
+    background-color: rgb(7, 13, 30);
+    border: solid 2px gray;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.cardbox img
+{
+    z-index: 1;
+    height: 70px;
+}
+
+.C::before 
+{
+    background:  rgb(120, 119, 119);
+}
+.MONGODB::before 
+{
+    background:  rgb(0, 255, 149);
+}
+.NODEJS::before 
+{
+    background:  rgb(127, 255, 0);
+}
+.GITHUB::before 
+{
+    background:  rgb(255, 255, 255);
+}
+
+
+
+.skillslogocontainer .skillcard3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.skillcard3 .cardbox {
+    width: 12rem;
+    height: 10rem;
+    background-color: rgb(7, 13, 30);
+    border: solid 2px gray;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.EXPRESS::before 
+{
+    background:  rgb(255, 255, 255);
+}
+.WORD::before 
+{
+    background:  rgb(0, 112, 192);
+}
+.POWERPOINT::before 
+{
+    background:  rgb(255, 102, 0);
+}
+.EXCEL::before 
+{
+    background:  rgb(16, 124, 16);
+}
