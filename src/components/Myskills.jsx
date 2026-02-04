@@ -6,7 +6,7 @@ import jsLogo from './../assets/image/JS.webp';
 import reactLogo from './../assets/image/react.webp'; 
 import cLogo from './../assets/image/C.webp';
 import mongodb from './../assets/image/mongoDB.png';
-import nodejs from './../assets/image/nodejs.png';
+import nodejs from './../assets/image/nodeJS.png';
 import github from './../assets/image/Github.png';
 import express from './../assets/image/express.png';
 import word from './../assets/image/Word.png';
