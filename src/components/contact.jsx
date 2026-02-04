@@ -3,7 +3,7 @@ import './contact.css'
 
 function contact() {
   return (
-    <div>
+    <div className='contact-container'>
 
         <h3>../contact</h3>
         <h1>Contact</h1>
@@ -13,7 +13,34 @@ function contact() {
 
         <div className='contactmedia'>
             
-            
+            <div className='messageform'>
+
+                <h1>Send me a message</h1>
+
+                <div>
+                    <input type="text" />
+                    <label htmlFor=""> <span></span> Your name</label>
+                </div>
+                
+                <div>
+                    <input type="Email" />
+                    <label htmlFor=""> <span></span> Your Email</label>
+                </div>
+
+                <div>
+                    <input type="text" />
+                    <label htmlFor=""> <span></span>Subject</label>
+                </div>
+
+                <div>
+                    <input type="text" />
+                    <label htmlFor=""> <span></span> Your Message</label>
+                </div>
+
+                <button>Send Message</button>
+            </div>
+
+            <div className='Mymediacontainer'></div>
 
         </div>
 
