@@ -2,12 +2,15 @@ import React from "react";
 import './Aboutme.css';
 import { IoLogoInstagram } from "react-icons/io5";
 import { LuSend } from "react-icons/lu";
-import { FaArrowRightLong } from "react-icons/fa6"
+import { FaArrowRightLong } from "react-icons/fa6";
+
+import myimage from './../assets/image/myimage.png';
+
 function Aboutme() {
     return (
         <div className="aboutme-container">
             <div className="mypic">
-                <img src="" alt="My Pic" />
+                <img src={ myimage } alt="My Pic" />
             </div>
             <div className="aboutme-text">
                 <h2>About Me</h2>
